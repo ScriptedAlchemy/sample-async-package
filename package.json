@@ -1,0 +1,37 @@
+{
+  "name": "sample-async-package",
+  "version": "1.0.0",
+  "description": "",
+  "module": "es6/index.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScriptedAlchemy/sample-async-package.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScriptedAlchemy/sample-async-package/issues"
+  },
+  "homepage": "https://github.com/ScriptedAlchemy/sample-async-package#readme",
+  "peerDependenciesMeta": {
+    "optional": {
+      "next": true
+    }
+  },
+  "files": [
+    "es6",
+    "lib"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-optional-chaining": "^7.10.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4"
+  }
+}
